@@ -124,7 +124,7 @@ body{
 }
 
 
-/*------------> Botón*/
+/*------------> Botón*/ 
 button {
     position: relative;
     padding: 10px 20px;
@@ -191,6 +191,8 @@ button {
     }
   }
   
+
+
   button:active {
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
@@ -275,6 +277,7 @@ button {
     min-width: 50px;
     height: 45px;
     cursor: pointer;
+    
 }
 .barra-lateral .modo-oscuro .base{
     position: relative;
@@ -382,4 +385,8 @@ main.min-main{
         margin-left: 0;
     }
     
+}
+body {
+    display: flex;
+
 }
